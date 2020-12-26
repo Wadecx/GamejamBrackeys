@@ -1,0 +1,49 @@
+body{
+	background-image:url(gj2021.jpg);
+}
+
+.countdownContainer{
+	position: absolute;
+	top: 17%;
+	left: 20%;
+	transform: translateX( -50%) translateY( -50%);
+	text-align: center;
+	background: none;
+	border: 3px solid #999;
+	padding: 10px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.info{ 
+	font-size: 80px;
+}
+
+.menu{
+	font-size: 20px;
+	text-align: center;
+}
+
+ul{
+	position:absolute;
+	left: 5.3%;
+	top:15%;
+	width: 200px;
+	margin: 100px auto 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+ul li
+{
+	display:flex;
+	background : #262673;
+	padding: 10px 10px;
+	color: #fff;
+	margin:5px auto;
+	transition: .5s;
+}
+
+h1
+{
+	border: 1px solid #cccccc;
+	text-align:center;
+}
